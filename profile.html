@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <style>
+      body{
+        margin: 0px;
+        border: 0px solid;
+        justify-content: center;
+        background-image: url(./assets/whatsapp\ wallpaper.jpg);
+        display: flex;
+        height:935px; 
+        width:980px;
+        overflow: hidden;
+      }
+      .border {
+        border: 0px solid;
+        height: 935px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        background-color:  rgb(247, 240, 240);
+      }
+      .header {
+        border: 0px solid;
+        height: 150px;
+        background-color: #008069;
+        color: white;
+        display: flex;
+        align-items: end;
+      }
+      .Profile {
+        display: flex;
+        border: 0px solid;
+        width: 500px;
+        height: 50px;
+        margin: 0px 0px 0px 30px;
+      }
+      .profile1 {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        border: 0px solid;
+        width: 200px;
+        padding: 10px;
+        font-size: 10px;
+      }
+      h1 {
+        color: white;
+        font-family: "Karma", sans-serif;
+        font-weight: 200;
+      }
+      .Profile_pic {
+        border: 0px solid;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247, 240, 240);
+      }
+      .Profile_pic img {
+        width: 250px;
+        height: 250px;
+        align-items: center;
+        border-radius: 200px;
+      }
+      .name {
+        border: 0px solid;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 1px 0px 1px silver;
+        background-color: white;
+      }
+      .name1 {
+        border: 0px solid;
+        height: 30px;
+        color:#008069;
+        font-size: medium;
+        margin: 0px 20px;
+      }
+      h2{
+        font-family: "Karma", sans-serif;
+        font-weight: 200;
+      }
+      .name2{
+        border: 0px solid;
+        height: 30px;
+        margin: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      input[type="text"]{
+        width: 200px;
+        font-size: 20px;
+        border: 0px;
+      }
+      .content{
+        border: 0px solid;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(247, 240, 240);
+      }
+      .content>p{
+        margin: 20px 20px;
+        font-family: "Karma", sans-serif;
+        font-weight: lighter;
+        color: silver;
+        text-align: start;
+       
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border">
+      <div class="header">
+        <div class="Profile">
+          <div class="profile1">
+            <span class="material-symbols-outlined"> arrow_back </span>
+            <h1>Profile</h1>
+          </div>
+        </div>
+      </div>
+      <div class="Profile_pic">
+        <img src="./assets/virat_kohli.jpg" alt="" />
+      </div>
+      <div class="name">
+        <div class="name1">
+          Your name
+        </div>
+        <div class="name2">
+          <input type="text" placeholder="virat kohli">
+          <span class="material-symbols-outlined">
+            edit
+            </span> 
+        </div>
+      </div>
+      <div class="content">
+        <p>This is not your username or PIN. This name will be visible to your WhatsApp contacts.</p>
+      </div>
+      <div class="name">
+        <div class="name1">
+          About
+        </div>
+        <div class="name2">
+          <input type="text" placeholder="Battery die hard">
+          <span class="material-symbols-outlined">
+            edit
+            </span> 
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

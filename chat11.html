@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- <link rel="stylesheet" href="../Projects/Tinker_project/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css"/>
+    <script src="../Projects/Tinker_project/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script> -->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      .box3 {
+        border: 0px solid black;
+        height: 932px;
+        width: 981px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box4 {
+        border: 0px solid;
+        width: 980px;
+        height: 60px;
+        display: flex;
+        background-color: rgb(241, 237, 237);
+      }
+
+      .box6 {
+        border: 0px solid;
+        width: 180px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(241, 237, 237);
+      }
+
+      .box5 {
+        display: flex;
+        gap: 50px;
+        border: 0px solid;
+        width: 800px;
+        height: 58px;
+        background-color: rgb(241, 237, 237);
+      }
+
+      button {
+        border-radius: 10px;
+        width: 50px;
+        align-items: center;
+        background-color: rgb(241, 237, 237);
+      }
+
+      .box7 {
+        border: 0px solid;
+        display: flex;
+        flex-direction: column;
+        width: 980px;
+        height: 820px;
+        overflow-y: scroll;
+        background-image: url(./assets/whatsapp\ wallpaper.jpg);
+      }
+
+      .convey1 {
+        margin: 20px 20px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        align-self: flex-end;
+        /* border: 1px solid; */
+        width: 100px;
+        gap: 5px;
+        padding: 5px 5px;
+        border-radius: 10px 10px 10px 10px;
+      }
+
+      .convey2 {
+        margin: 20px 0px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        align-self: flex-start;
+        /* border: 1px solid; */
+        width: 100px;
+        gap: 5px;
+        padding: 5px 5px;
+        border-radius: 10px 10px 10px 10px;
+      }
+
+      li {
+        list-style: none;
+        font-weight: lighter;
+        font-family: "Karma", sans-serif;
+        color: blue;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .box8 {
+        border: 0px solid;
+        width: 980px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(241, 237, 237);
+      }
+
+      .item1 {
+        border: 0px solid;
+        font-size: 40px;
+        width: 100px;
+        margin: 20px 0px 20px 20px;
+        padding: 0px;
+        display: flex;
+        gap: 15px;
+      }
+
+      .item2 {
+        border: 0px solid;
+        width: 800px;
+      }
+
+      .item3 {
+        border: 0px solid;
+        width: 50px;
+      }
+
+      input[type="text"] {
+        height: 40px;
+        border-radius: 10px;
+        width: 780px;
+      }
+
+      .box5 img {
+        border-radius: 120%;
+        height: 40px;
+        width: 40px;
+        margin: 10px 0px 10px 20px;
+      }
+
+      .virat {
+        display: flex;
+        flex-direction: column;
+      }
+
+      h1 {
+        font-weight: lighter;
+        font-family: "Karma", sans-serif;
+      }
+      .material {
+        display: block;
+        position: relative;
+      }
+
+      .material:hover .emoji {
+        display: block;
+        visibility: visible;
+        transition-duration: 50s;
+      }
+
+      .emoji {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 500px;
+        height: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 16px 16px;
+        font-size: 10px;
+        top: -250px;
+        z-index: 1;
+      }
+      .file {
+        display: block;
+        position: relative;
+      } 
+      .file:hover .file2 {
+        display: block;
+        visibility: visible;
+        transition-duration: 50s;
+      }
+      .file2 {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 200px;
+        height: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 16px 16px;
+        font-size: 25px;
+        top: -250px;
+        z-index: 1;
+      }
+      .file2>a{
+        text-decoration: none;
+      }
+      a {
+        text-decoration: none;
+        color: #008069;
+      }
+
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="box3">
+      <div class="box4">
+        <div class="box5">
+          <img src="./assets/virat_kohli.jpg" />
+          <div class="virat">
+            <h1>virat kohli</h1>
+            <p>My day is my hero</p>
+          </div>
+        </div>
+        <div class="box6">
+          <button>
+            <span class="material-symbols-outlined"> videocam </span>
+          </button>
+          <span class="material-symbols-outlined" for="Search">search </span>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+      </div>
+
+      <div class="box7">
+        <div class="convey1">
+          <li>Hello!!</li>
+          <li>09:25pm</li>
+        </div>
+        <div class="convey2">
+          <li>Hai!!</li>
+          <li>09:30pm</li>
+        </div>
+        <div class="convey1">
+          <li>What are you doing</li>
+          <li>09:31pm</li>
+        </div>
+        <div class="convey2">
+          <li>Nothing!!</li>
+          <li>09:32pm</li>
+        </div>
+        <div class="convey1">
+          <li>Tinnava</li>
+          <li>09:33pm</li>
+        </div>
+        <div class="convey2">
+          <li>Yes,U</li>
+          <li>09:34pm</li>
+        </div>
+        <div class="convey1">
+          <li>Haa</li>
+          <li>09:35pm</li>
+        </div>
+        <div class="convey2">
+          <li>Inka.?</li>
+          <li>09:36pm</li>
+        </div>
+        <div class="convey1">
+          <li>Cheppu..</li>
+          <li>09:36pm</li>
+        </div>
+        <div class="convey2">
+          <li>Office ki vellava?</li>
+          <li>09:37pm</li>
+        </div>
+        <div class="convey1">
+          <li>Yes</li>
+          <li>09:37pm</li>
+        </div>
+        <div class="convey2">
+          <li>lets plan for trip?</li>
+          <li>09:38pm</li>
+        </div>
+        <div class="convey1">
+          <li>haa okay</li>
+          <li>09:40pm</li>
+        </div>
+        <div class="convey2">
+          <li>But,where?</li>
+          <li>09:40pm</li>
+        </div>
+        <div class="convey1">
+          <li>U r wish..?</li>
+          <li>09:41pm</li>
+        </div>
+        <div class="convey2">
+          <li>lets think?</li>
+          <li>09:42pm</li>
+        </div>
+        <div class="convey1">
+          <li>No thinking?lets go</li>
+          <li>09:43pm</li>
+        </div>
+        <div class="convey2">
+          <li>No money</li>
+          <li>09:44pm</li>
+        </div>
+        <div class="convey1">
+          <li>i will set</li>
+          <li>09:50pm</li>
+        </div>
+        <div class="convey2">
+          <li>ok...</li>
+          <li>09:51pm</li>
+        </div>
+      </div>
+      <div class="box8">
+        <div class="item1">
+          <div class="material">
+            <span class="material-symbols-outlined"> mood </span>
+            <div class="emoji">
+              <a href=""
+                ><h1>
+                  &#128512;&#128513;&#128514;&#128515; &#128516; &#128517;
+                  &#128518; &#128519; &#128520; &#128521; &#128522; &#128523;
+                  &#128524; &#128525; &#128526; &#128527; &#128528; &#128529;
+                  &#128530; &#128531; &#128532; &#128533; &#128534; &#128535;
+                  &#128536; &#128537; &#128538; &#128539; &#128540; &#128541;
+                  &#128542; &#128543; &#128544; &#128545; &#128546; &#128547;
+                  &#128548; &#128549; &#128550; &#128551; &#128552; &#128553;
+                  &#128554; &#128555; &#128556; &#128557; &#128558; &#128559;
+                  &#128560; &#128561; &#128562; &#128563; &#128564; &#128565;
+                  &#128566; &#128567; &#128000; &#128001; &#128002; &#128003;
+                  &#128004; &#128005; &#128006; &#128007; &#128008; &#128009;
+                  &#128010; &#128011; &#128012; &#128013; &#128014; &#128015;
+                  &#128016; &#128017; &#128018; &#128019; &#128020; &#128021;
+                  &#128022; &#128023; &#128024; &#128025; &#128026; &#128027;
+                  &#128028; &#128029; &#128030; &#128031; &#128032; &#128033;
+                  &#128034; &#128035; &#128036; &#128037; &#128038; &#128039;
+                  &#128040; &#128041; &#128042; &#128043; &#128044; &#128045;
+                  &#128046; &#128047; &#128048; &#128049; &#128050; &#128051;
+                  &#128052; &#128053; &#128054; &#128055; &#128056; &#128057;
+                  &#128058; &#128059; &#128060; &#128061; &#128062; &#128063;
+                </h1></a
+              >
+            </div>
+          </div>
+          <div class="file">
+            <span class="material-symbols-outlined"> attach_file_add </span>
+            <div class="file2">
+              <a href=""
+                ><span class="material-symbols-outlined"> description </span
+                >Document</a
+              ><br />
+              <a href=""
+                ><span class="material-symbols-outlined"> photo_library </span
+                >Photos & videos</a
+              ><br />
+              <a href=""
+                ><span class="material-symbols-outlined"> photo_camera </span
+                >Camera</a
+              ><br />
+              <a href=""
+                ><span class="material-symbols-outlined">
+                  contacts_product </span
+                >Contact</a
+              ><br />
+              <a href=""
+                ><span class="material-symbols-outlined"> sort </span>Poll</a
+              ><br />
+              <a href=""
+                ><span class="material-symbols-outlined"> ar_stickers </span>New
+                sticker</a
+              ><br />
+              <a href=""
+                ><span class="material-symbols-outlined"> edit_calendar </span
+                >Event</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="item2">
+          <input
+            type="text"
+            name="Type a message"
+            id="Type a message"
+            placeholder="Type a message"
+          />
+        </div>
+        <div class="item3">
+          <span class="material-symbols-outlined"> mic </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
